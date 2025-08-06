@@ -82,7 +82,7 @@ a {
 }
 
 @media (max-width: 600px) {
-  . .header-menu {
+  .header-menu {
     gap: 0.75rem;
   }
   .header-menu a {
