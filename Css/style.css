@@ -1,92 +1,13 @@
-body {
-  margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-}
+/*Resets*/
+@import "/Css/global/global.css";
+@import "/Css/utilidaddes/tipografia.css";
+@import "/Css/utilidaddes/cores.css";
 
-ul {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-}
+/*Header-Cabecalho*/
+@import "/Css/global/header.css";
 
-a {
-  text-decoration: none;
-}
+/*Utilidades-Componentes*/
+@import "/Css/utilidaddes/componentes.css";
 
-.header-bg {
-  background-color: #000000;
-}
-.header {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.25rem;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box; /*não valor do padding no max-width*/
-  padding: 1.25rem;
-  max-width: 75rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.header-menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-
-.header-menu a {
-  padding: 1rem 0;
-  display: inline-block;
-  color: #ffffff;
-  font-size: 1.125rem;
-  line-height: 2rem;
-  position: relative;
-}
-
-.header-menu a::after {
-  position: absolute;
-  content: "";
-  display: block;
-  height: 0.125rem;
-  width: 0px;
-  background-color: #ffffff;
-  margin-top: 0.25rem;
-}
-.header-menu a:hover::after {
-  width: 100%;
-  transition: 0.3s;
-}
-
-.header-img {
-  display: block;
-  height: auto;
-  max-width: 100%;
-}
-
-@media (max-width: 800px) {
-  .header-menu {
-    gap: 1.25rem;
-  }
-  .header-menu a {
-    background-color: #222222;
-    padding: 0.75rem 1rem;
-    border-radius: 0.25rem;
-  }
-  .header-menu a:hover {
-    background-color: #2e2e2e;
-  }
-  .header a::after {
-    display: none;
-  }
-}
-
-@media (max-width: 600px) {
-  .header-menu {
-    gap: 0.75rem;
-  }
-  .header-menu a {
-    padding: 0.5rem 0.75rem;
-    font-size: 0.875rem;
-  }
-}
+/*Home*/
+@import "/Css/home/introducao.css";
