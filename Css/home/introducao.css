@@ -23,20 +23,13 @@
   object-fit: cover;
   border-radius: 0.125rem;
 }
-.texto-grande {
+.font-1-xxl {
   margin-bottom: 2rem;
 }
-.texto-medio {
+.font-2-l {
   margin-bottom: 1.25rem;
 }
-@media (max-width: 1200px) {
-  .texto-grande {
-    font-size: 3rem;
-  }
-  .texto-medio {
-    font-size: 1rem;
-  }
-}
+
 @media (max-width: 800px) {
   .introducao-bg {
     background-color: var(--cor-11);
@@ -54,7 +47,7 @@
     grid-template-columns: 1fr;
     gap: 1rem;
   }
-  .texto-grande {
+  .font-1-xxl {
     font-size: 2rem;
     margin-bottom: 1rem;
   }

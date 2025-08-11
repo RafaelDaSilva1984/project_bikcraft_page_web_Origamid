@@ -6,6 +6,9 @@ body {
 }
 /* RESETS*/
 h1,
+h2,
+h3,
+h4,
 ul,
 p {
   margin: 0px;
@@ -22,4 +25,7 @@ img {
   display: block;
   height: auto;
   max-width: 100%;
+}
+img[src$=".jpg"] {
+  border-radius: 0.25rem;
 }
