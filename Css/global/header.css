@@ -7,11 +7,8 @@
   gap: 1.25rem;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box; /*não valor do padding no max-width*/
-  padding: 1.25rem;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 .header-menu {
   display: flex;
