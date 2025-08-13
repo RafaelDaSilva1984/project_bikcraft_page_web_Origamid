@@ -3,8 +3,9 @@
 @import "/Css/utilidaddes/tipografia.css";
 @import "/Css/utilidaddes/cores.css";
 
-/*Header-Cabecalho*/
+/*Header-Cabecalho e Footer-Rodapé*/
 @import "/Css/global/header.css";
+@import "/Css/global/footer.css";
 
 /*Utilidades-Componentes*/
 @import "/Css/utilidaddes/componentes.css";
