@@ -33,14 +33,16 @@
   content: "";
   display: inline-block;
   height: 0.5rem;
-  width: 0.75rem;
+  width: 0.5rem;
   background-color: var(--cor-p1);
   margin-right: 0.5rem;
-  transition: wisth 0.2s;
+  transition: wisth 0.3s;
 }
 .bicicletas-lista a:hover h3::before {
-  width: 1.5rem;
+  width: 2.5rem;
+  background: linear-gradient(var(--cor-p3), var(--cor-p1), var(--cor-p3));
 }
+
 .bicicletas-lista li span {
   padding-left: 1.25rem;
 }
