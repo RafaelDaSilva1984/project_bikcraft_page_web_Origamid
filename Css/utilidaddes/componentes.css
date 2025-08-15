@@ -27,6 +27,23 @@
 .botao.secundario:hover {
   background: var(--cor-9);
 }
+.botao.seta {
+  display: flex;
+  align-items: center;
+}
+.botao.seta::after {
+  content: "";
+  display: inline-block;
+  width: 1.125rem;
+  height: 0.625rem;
+  margin-left: 0.75rem;
+  background: url("/img/icones/seta.svg");
+  transition: transform 0.2s;
+}
+/*Transform cria efeito de mover a seta para frente no hover::after*/
+.botao.seta:hover::after {
+  transform: translateX(0.25rem);
+}
 .link {
   display: inline-block;
   color: var(--cor-p1);
@@ -57,5 +74,25 @@
   .botao {
     padding: 0.5rem 0.5rem;
     font-size: 0.75rem;
+  }
+}
+/*Titulos Internos*/
+.titulo-bg {
+  background-color: var(--cor-11);
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+.titulo p {
+  margin-bottom: 0.25rem;
+}
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
   }
 }
