@@ -14,6 +14,9 @@
   margin-right: auto;
   overflow-x: auto; /*cria barra de rolagem para imagens qdo necessário no eixo x*/
 }
+#bicicleta .bicicletas-lista-items {
+  padding: 0rem 0rem 1.25rem 0;
+}
 .bicicletas-lista li {
   min-width: 280px;
   flex: 1;

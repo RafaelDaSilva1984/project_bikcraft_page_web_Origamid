@@ -22,6 +22,7 @@
 
 /*Bicicleta*/
 @import "/Css/bicicleta/bicicleta.css";
+@import "/Css/bicicleta/seguro.css";
 
 /*Seguros*/
 @import "/Css/Seguros/seguros.css";
