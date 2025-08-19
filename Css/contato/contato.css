@@ -60,7 +60,7 @@
   display: block;
   max-width: 2rem;
   height: 0.125rem;
-  background: var(--cor-p3);
+  background: var(--cor-2);
   margin-top: -2.5rem;
 }
 @media (max-width: 800px) {
