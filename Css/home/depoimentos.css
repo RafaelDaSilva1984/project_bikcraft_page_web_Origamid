@@ -13,6 +13,8 @@
 .depoimentos-conteudo {
   padding: 2.5rem 2.5rem 5rem 5rem;
   align-self: end;
+  background: url("../../img/dec/bottom-right.svg") no-repeat bottom 2rem right
+    2.5rem;
 }
 .depoimentos-conteudo p {
   max-width: 32ch;
@@ -37,7 +39,11 @@
 .depoimentos p::after {
   content: "”";
 }
-
+@media (min-width: 1200px) {
+  .depoimentos img {
+    max-height: 520px;
+  }
+}
 @media (max-width: 800px) {
   .depoimentos {
     grid-template-columns: 1fr;
