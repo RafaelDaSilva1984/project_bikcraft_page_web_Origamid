@@ -26,12 +26,17 @@
   display: block;
   height: 0.125rem;
   width: 0px;
-  background-color: var(--cor-p1);
+  background-color: var(--cor-1);
   margin-top: 0.25rem;
 }
-.header-menu a:hover::after {
+.header-menu a:hover {
+  color: var(--cor-p1);
+}
+.header-menu a:hover::after,
+.header-menu a.ativo::after,
+.header-menu a.ativo {
   width: 100%;
-  transition: 0.3s;
+  color: var(--cor-p1);
 }
 @media (max-width: 800px) {
   .header-menu {
