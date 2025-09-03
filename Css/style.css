@@ -2,6 +2,7 @@
 @import "/Css/global/global.css";
 @import "/Css/utilidaddes/tipografia.css";
 @import "/Css/utilidaddes/cores.css";
+@import "/Css/utilidaddes/animacao.css";
 
 /*Header-Cabecalho e Footer-Rodapé*/
 @import "/Css/global/header.css";
